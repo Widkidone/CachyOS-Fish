@@ -41,9 +41,4 @@ alias cleanup='sudo pacman -Rns $(pacman -Qtdq)'
 alias xls="eza -a --icons --color=always --group-directories-first"
 alias xll="eza -lag --icons --color=always --group-directories-first --octal-permissions"
 
-#create a file called .config.fish-personal and put all your personal aliases
-#in there. They will not be overwritten by skel.
-
-[[ -f ~/.config.fish-personal ]] && . ~/.config.fish-personal
-
 #end
